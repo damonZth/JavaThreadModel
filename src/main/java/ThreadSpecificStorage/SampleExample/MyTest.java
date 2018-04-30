@@ -12,4 +12,10 @@ public class MyTest {
 
     }
 
+    public static void main(String[] args){
+        new ClientThread("Alice").start();
+        new ClientThread("Davie").start();
+        new ClientThread("Bobi").start();
+    }
+
 }
